@@ -28,3 +28,7 @@ Introduction to commits:
 
 git add .
 git commit -m "Initial code commit"
+git log(to see the commit log)
+git log --oneline ( show log in single line)
+git show b2245e7 ( to see complete changes in file)
+git blame index.js ( to see the date, time and name of the commiter)
