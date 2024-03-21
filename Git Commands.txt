@@ -1,16 +1,30 @@
 Git Commands:
 
+*important*
+q (to exit screen)
+h (to get help)
+
+Initializing project: 
 
 git config --global user.name
 git config --global user.email
 mkdir git-crash-course
 cd git-crash-course
 code . (to open vs code)
+
+
+
+Adding files to vs code:
+
 git init
 ls -la(shows hidden folder warning: dont touch it)
 git add index.js
 git diff (show changes in a file)
 git add . (to add all the files)
+git rm <file path>
 
-q (to exit screen)
-h (to get help)
+
+Introduction to commits:
+
+git add .
+git commit -m "Initial code commit"
