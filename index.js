@@ -8,3 +8,7 @@ function sayName(){
 function isabove18(){
     return age >= 18
 }
+
+function newFn(){
+    console.log('hey it is js')
+}
