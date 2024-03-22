@@ -16,3 +16,9 @@ function newFn(){
 function newFeature(){
     console.log("added new feature")
 }
+function one(){
+    console.log("added new feature")
+}
+function one1(){
+    console.log("added new feature")
+}
