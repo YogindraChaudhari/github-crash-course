@@ -95,6 +95,8 @@ git push --set-upstream origin branch1
 git merge origin/branch1
 git push
 
+git commit -a -m "commit-c"(to add and commit)
+
 git checkout -b "branch2" (create New Branch and switch) 
 git push --set-upstream origin branch2
 
@@ -108,3 +110,13 @@ note: it will be merge on server not on local
 
 to make it local:
 git pull
+
+
+
+Branching Name Convention:(branching tags)
+
+git branch "feat/add-chat-support"
+git branch "bug/login-not-working"
+
+
+rebasing:
