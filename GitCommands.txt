@@ -96,3 +96,15 @@ git merge origin/branch1
 git push
 
 git checkout -b "branch2" (create New Branch and switch) 
+git push --set-upstream origin branch2
+
+Pull Request:
+github > pull Request > new Pull Request > 
+base: main, compare: branch2 > create pull Request > 
+add title > create pull Request
+
+conversation > merge > confirm merge (if wanted to merge)
+note: it will be merge on server not on local
+
+to make it local:
+git pull
