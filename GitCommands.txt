@@ -3,6 +3,8 @@ Git Commands:
 *important*
 q (to exit screen)
 h (to get help)
+ctrl x and ctrl c(to quit)
+:wq (in visual studio to quit)
 
 Initializing project: 
 
@@ -41,3 +43,31 @@ git reset --hard <id of commit>(It will manipulate t
 he new nodes and head to the specified id of commit)
 
 git revert <id of commit>(It modify specific content in files)
+
+
+
+Single Central Server:
+
+GitHUB
+GitLab
+BitBucket
+
+GitRemote:
+git remote
+git remote -v
+git remote add origin https://github.com/YogindraChaudhari/github-crash-course.git
+git remote -v
+git push
+git push -u origin main
+
+
+*GitRemote commands*
+
+echo "# github-crash-course" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:YogindraChaudhari/github-crash-course.git
+git push -u origin main
+
