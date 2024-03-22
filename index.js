@@ -10,5 +10,5 @@ function isabove18(){
 }
 
 function newFn(){
-    console.log('hey it is js')
+    console.log(`hey`)
 }
