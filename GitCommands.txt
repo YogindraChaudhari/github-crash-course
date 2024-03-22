@@ -94,3 +94,5 @@ git checkout branch1
 git push --set-upstream origin branch1
 git merge origin/branch1
 git push
+
+git checkout -b "branch2" (create New Branch and switch) 
