@@ -73,3 +73,24 @@ git branch -M main
 git remote add origin git@github.com:YogindraChaudhari/github-crash-course.git
 git push -u origin main
 git push -f (for forcefully push)
+
+
+normally used:
+git status
+git add filename or git add .
+git commit -m "message"
+git push -u origin main
+git log --oneline or git log
+git reset --hard <id>
+git revert <id>
+
+
+
+Branching:
+
+git branch
+git branch "branch1"
+git checkout branch1
+git push --set-upstream origin branch1
+git merge origin/branch1
+git push
