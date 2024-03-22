@@ -1,3 +1,1 @@
-function sayhello(){
-    console.log('hello')
-}
+const name = "hello"

@@ -33,3 +33,6 @@ git log --oneline ( show log in single line)
 git show b2245e7 ( to see complete changes in file)
 git blame index.js ( to see the date, time and name of the commited user)
 git status ( to check the local changes)
+
+Revert back:
+git reset --hard <id of commit>
